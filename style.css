@@ -1,12 +1,16 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
 .text {
   color: rgb(13, 13, 13);
-  font-family: sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .text:hover {
   color: rgb(52, 52, 247);
+  text-decoration: underline;
 }
 
 .link {
@@ -19,5 +23,49 @@
 }
 
 .btn {
-  color: green;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #70c0e3;
+  border: 1px solid #53a7cb;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-auto {
+  margin-left: 30px;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px; */
+
+  padding: 8px 30px;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 2px solid #5d5d5d;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-border:hover {
+  border-color: black;
+}
+
+.btn-border-fill {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-border-fill:hover {
+  background-color: black;
+  color: white;
 }
