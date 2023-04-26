@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>GameStudio</title>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Normalize.CSS -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p class="text">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, expedita!
-    </p>
+    <header>
+      <nav>
+        <a href="/" class="logo">
+          <span class="logo__game">Game</span><span>Studio</span>
+        </a>
+      </nav>
 
-    <a href="#" class="link">Link</a>
-
-    <button class="btn">Click me</button>
-    <button class="btn-auto">Some random long text</button>
-    <button class="btn-border">Border</button>
-    <button class="btn-border-fill">Border Fill</button>
+      <div class="hero">
+        <h1 class="hero__title">
+          Найкращі відеоігри<br />
+          для вас
+        </h1>
+      </div>
+    </header>
   </body>
 </html>
