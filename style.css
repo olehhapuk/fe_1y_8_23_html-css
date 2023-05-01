@@ -13,6 +13,18 @@ p {
   margin: 0;
 }
 
+/* .box {
+  min-width: 500px;
+  height: 500px;
+  background-color: palevioletred;
+} */
+
+.container {
+  padding: 0 15px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -30,9 +42,14 @@ p {
 }
 
 .hero {
-  background-image: url('images/HeroBG.jpg');
   padding-top: 158px;
   padding-bottom: 158px;
+  background-image: url('images/HeroBG.jpg');
+  background-repeat: no-repeat;
+  /* background-size: 500px 550px; */
+  background-size: cover;
+  /* background-position: bottom 10px right 100px; */
+  background-position: center;
 }
 
 .hero__title {
@@ -43,4 +60,35 @@ p {
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 26px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  /* border-bottom: 2px solid #2196f3; */
+}
+
+.section-title::after {
+  content: '';
+  display: none;
+  width: 100px;
+  height: 2px;
+  background-color: #2196f3;
+  margin: 0 auto;
+}
+
+.section-title:hover::after {
+  display: block;
+}
+
+/* .section-title::before {
+  content: 'before';
+} */
+
+section {
+  padding-top: 25px;
 }
