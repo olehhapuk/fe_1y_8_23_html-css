@@ -13,6 +13,12 @@ p {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* .box {
   min-width: 500px;
   height: 500px;
@@ -91,4 +97,16 @@ p {
 
 section {
   padding-top: 25px;
+}
+
+.game {
+  border: 3px solid red;
+}
+
+.game__img {
+  width: 100%;
+}
+
+.game__info {
+  padding: 20px 24px 30px; /* зверху, по боках, знизу */
 }
