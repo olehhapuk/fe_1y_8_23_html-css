@@ -150,6 +150,7 @@ section {
 }
 
 .form__input {
+  min-width: 100%;
   width: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -159,6 +160,7 @@ section {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   box-sizing: border-box;
+  resize: none;
 }
 
 .form__input:focus {
@@ -169,4 +171,55 @@ section {
 .contact-form {
   max-width: 370px;
   margin: auto;
+}
+
+.btn {
+  padding: 10px 58px;
+  border: none;
+  background: #188ce8;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 54px;
+}
+
+.btn:hover {
+  background: #2195f4;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding: 60px 15px;
+}
+
+.logo_footer {
+  color: #fff;
+}
+
+.footer__address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.footer__email,
+.footer__phone {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  display: block;
+  text-align: center;
 }
