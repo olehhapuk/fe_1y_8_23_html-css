@@ -1,225 +1,52 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
+  font-family: 'Playfair Display', serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* .box {
-  min-width: 500px;
-  height: 500px;
-  background-color: palevioletred;
-} */
-
-.container {
-  padding: 0 15px;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: 0.03em;
-  color: inherit;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  line-height: 60px;
-}
-
-.logo__game {
-  color: #2196f3;
-}
-
-.hero {
-  padding-top: 158px;
-  padding-bottom: 158px;
-  background-image: url('images/HeroBG.jpg');
-  background-repeat: no-repeat;
-  /* background-size: 500px 550px; */
-  background-size: cover;
-  /* background-position: bottom 10px right 100px; */
-  background-position: center;
-}
-
-.hero__title {
-  text-align: center;
+.item {
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
   text-transform: uppercase;
-  color: #fff;
-  line-height: 42px;
-  letter-spacing: 0.06em;
-  font-weight: 900;
-  font-size: 26px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.item:hover {
+  color: #03a9f4;
+}
+
+.header {
   text-align: center;
-  /* border-bottom: 2px solid #2196f3; */
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 90px;
 }
 
-.section-title::after {
-  content: '';
-  display: none;
-  width: 100px;
-  height: 2px;
-  background-color: #2196f3;
-  margin: 0 auto;
+.card {
+  width: 420px;
+  margin-left: 150px;
 }
 
-.section-title:hover::after {
-  display: block;
-}
-
-/* .section-title::before {
-  content: 'before';
-} */
-
-section {
-  padding-top: 25px;
-}
-
-.game {
-  border: 1px solid #eee;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
-
-.game:hover .game__title {
-  color: #2196f3;
-}
-
-.game__img {
-  width: 100%;
-}
-
-.game__info {
-  padding: 20px 24px 30px; /* зверху, по боках, знизу */
-}
-
-.game__title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  margin-bottom: 4px;
-  text-transform: uppercase;
-}
-
-.game__text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.form__field {
-  margin-bottom: 10px;
-}
-
-.form__label {
-  display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: #757575;
-  margin-bottom: 4px;
-}
-
-.form__input {
-  min-width: 100%;
-  width: 100%;
-  font-weight: 400;
+.card-subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.01em;
-  padding: 12px 16px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: none;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-top: 62px;
 }
 
-.form__input:focus {
-  outline: none;
-  border-color: #2196f3;
-}
-
-.contact-form {
-  max-width: 370px;
-  margin: auto;
-}
-
-.btn {
-  padding: 10px 58px;
-  border: none;
-  background: #188ce8;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  margin: 0 auto;
-  display: block;
-  cursor: pointer;
-  margin-bottom: 54px;
-}
-
-.btn:hover {
-  background: #2195f4;
-}
-
-.footer {
-  background-color: #2f303a;
-  padding: 60px 15px;
-}
-
-.logo_footer {
-  color: #fff;
-}
-
-.footer__address {
-  font-style: normal;
+.card-title {
+  font-size: 30px;
+  line-height: 40px;
+  color: #626262;
+  margin-top: 32px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  margin-bottom: 8px;
 }
 
-.footer__email,
-.footer__phone {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+.card-text {
   font-size: 14px;
-  letter-spacing: 0.03em;
-  line-height: 24px;
-  display: block;
-  text-align: center;
+  line-height: 19px;
+  color: #626262;
+  margin-top: 40px;
 }
