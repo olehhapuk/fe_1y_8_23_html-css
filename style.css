@@ -53,8 +53,9 @@ body {
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
-  max-width: 910px;
-  margin: 0 auto;
-  justify-content: space-between;
+  /* max-width: 910px;
+  margin: 0 auto; */
+  justify-content: center;
   row-gap: 130px;
+  column-gap: 70px;
 }
