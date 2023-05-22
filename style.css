@@ -59,3 +59,20 @@ body {
   row-gap: 130px;
   column-gap: 70px;
 }
+
+.btn {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #626262;
+  width: 165px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #626262;
+  color: #fff;
+}
