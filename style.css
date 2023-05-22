@@ -23,7 +23,6 @@ body {
 
 .card {
   width: 420px;
-  margin-left: 150px;
 }
 
 .card-subtitle {
@@ -49,4 +48,13 @@ body {
   line-height: 19px;
   color: #626262;
   margin-top: 40px;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 910px;
+  margin: 0 auto;
+  justify-content: space-between;
+  row-gap: 130px;
 }
