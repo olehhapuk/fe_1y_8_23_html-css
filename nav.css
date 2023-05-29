@@ -10,7 +10,7 @@ a {
 .header {
   max-width: 900px;
   margin: auto;
-  padding: 12px 24px;
+  padding: 16px 24px;
 
   display: flex;
   justify-content: space-between;
@@ -35,4 +35,31 @@ a {
 
   display: flex;
   column-gap: 6px;
+}
+
+.header-join {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+
+.header-start {
+  border: none;
+  background-color: #ffcc01;
+  border-radius: 6px;
+  padding: 14px 24px;
+  color: inherit;
+}
+
+.header-join:hover,
+.header-start:hover,
+.nav-menu-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.header-actions {
+  display: flex;
+  column-gap: 10px;
 }
