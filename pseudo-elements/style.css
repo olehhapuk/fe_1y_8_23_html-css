@@ -1,0 +1,26 @@
+.title {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.title::before,
+.title::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: black;
+  margin: 10px;
+}
+
+.text::first-letter {
+  font-size: 50px;
+  margin: 10px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.text::first-line {
+  color: palevioletred;
+}
